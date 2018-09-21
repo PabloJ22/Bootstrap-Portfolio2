@@ -153,6 +153,7 @@
   }
 }
 
+
 .btn {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -183,19 +184,27 @@
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  ;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%), url("/img/chess3.jpg");
-  ;
+  padding-top: 80px;
+
+
+  background: black;
+  z-index: 1;
+
 
 }
+
+
+
+
+
+
 
 .about-section p {
   margin-bottom: 5rem;
 }
 
 .projects-section {
-  padding: 8rem 0;
+  padding: 2rem 0;
 }
 
 .projects-section .featured-text {
@@ -210,7 +219,7 @@
 }
 
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 8rem;
   font-size: 90%;
 }
 
@@ -249,7 +258,7 @@
 }
 
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 8rem 0 3rem;
 }
 
 .contact-section .card {
