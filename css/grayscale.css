@@ -331,3 +331,63 @@ a:hover {
 footer {
   padding: 5rem 0;
 }
+
+#avatar {
+
+  vertical-align: middle;
+  /* width: 18%;
+  height: 30%; */
+  border-radius: 50%;
+  position: sticky;
+  width: 100%;
+  height: 100%;
+
+  right: 100px;
+  bottom: 30px;
+  /* z-index: 1; */
+
+}
+
+.grow {
+  transition: all .5s ease-in-out;
+
+  overflow: auto;
+  display: block;
+}
+
+.grow:hover {
+  transform: scale(5);
+  transform-origin: left top;
+
+  /* bottom: 70px; */
+}
+
+#stickyAv {
+  float: right;
+  display: block;
+  /* position: fixed; */
+  /* top: 80px; */
+  /* width: 18%; */
+  width: 5%;
+  /* height: 30%; */
+  /* z-index: 1; */
+  /* right: 30px; */
+}
+
+.marginR {
+  /* margin-left: 0 !important; */
+  /* align-items: center; */
+  /* z-index: -1 !important; */
+  /* display: block; */
+  /* padding-left: 15px; */
+  padding: 15px !important;
+}
+
+/* a :nth-child(1) {
+  padding-left: 15px;
+} */
+
+
+.alignTxt {
+  align-content: center;
+}
